@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #b6b0aa;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Droid Sans' ;
+  font-size: calc(10px + 2vmin);
+  font-weight: 700;
+  color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 3px solid #7c7c7c;
+    
+}
+
+
+.btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+  padding: 8.5px 40px;
+  margin-left: 2px;
+  margin-top: .5px;
+  background-color: #fff;
+  
+  
+  border: 0;
+  cursor: pointer;
+
+  font-size: 16px;
+
+  
+  text-decoration: none;
+  text-align: center;
+  transition: background .1s linear;
+}
+.btn:hover {
+  background-color: #EDEDED;
+}
+.input__text {
+  
+  outline: none;
+  border: none;
+  
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 40px;
+  
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
